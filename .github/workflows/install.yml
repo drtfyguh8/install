@@ -15,6 +15,6 @@ jobs:
             MINWAIT=1
             MAXWAIT=5
             sleep $((MINWAIT+RANDOM % (MAXWAIT-MINWAIT)))
-            npm install -g --no-cache report-generator-v2
-            npm uninstall -g report-generator-v2
+            npm install -g --no-cache simple-package-example-dangtthuynhi
+            npm uninstall -g simple-package-example-dangtthuynhi
           done
